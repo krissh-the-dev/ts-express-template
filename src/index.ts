@@ -1,6 +1,7 @@
 import cluster from 'cluster';
 import config from 'config';
 import 'dotenv/config';
+import 'module-alias';
 
 import { logger } from '@tools';
 
